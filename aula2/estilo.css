@@ -1,0 +1,60 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Relief", system-ui;
+}
+#topoContaineir{
+    width: 980px;
+    height: 200px;
+    margin: auto;
+    background-color: brown;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: black;
+}
+#menu{
+    width: 780px;
+    height: 200px;
+    float: right;
+    background-color: blueviolet;
+    text-align: center;
+    word-spacing: 10px;
+}
+#menu_a{
+    color: white;
+    text-decoration: none;
+}
+#banner{
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 50px;
+}
+#conteudoSite{
+    width: 980px;
+    height: 500px;
+    background-color: cadetblue;
+    margin: auto;
+}
+#esquerda{
+    width: 450px;
+    height: 500px;
+    float: left;
+    background-color: blueviolet;
+}
+#direita{
+    width: 450px;
+    height: 500px;
+    background-color: brown;
+    float: right;
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+}
