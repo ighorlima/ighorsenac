@@ -15,6 +15,10 @@
     float: left;
     background-color: black;
 }
+#logo_img{
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
 #menu{
     width: 780px;
     height: 200px;
