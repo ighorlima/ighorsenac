@@ -1,21 +1,21 @@
 * body{
     margin: 0px;
     padding: 0px;
-    font-family: "Comic Relief", system-ui;
+    font-family: "Roboto", sans-serif;
 }
 #topoContaineir{
     width: 980px;
     height: 200px;
     margin: auto;
-    background-color: brown;
+   /* background-color: brown; */
 }
 #logo{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     float: left;
-    background-color: black;
+   /* background-color: black; */
 }
-#logo_img{
+#logo img{
     float: left;
     padding: 10px 10px 10px 10px;
 }
@@ -23,18 +23,25 @@
     width: 780px;
     height: 200px;
     float: right;
-    background-color: blueviolet;
+   /* background-color: blueviolet; */
     text-align: center;
     word-spacing: 10px;
 }
-#menu_a{
-    color: white;
-    text-decoration: none;
+#menu a{
+    color: rgb(5, 0, 0);
+    text-decoration: none;    
+}
+#menu a:hover{
+    color: blueviolet;
+}
+
+.espacoTopo{
+    padding-top: 50px;
 }
 #banner{
-    width: 700px;
+    width: 100%;
     height: 400px;
-    background-color: brown;
+   /* background-color: brown; */
     margin: auto;
     margin-top: 50px;
 }
@@ -61,4 +68,5 @@
     height: 50px;
     background-color: blue;
     margin: auto;
+    clear: both;
 }
