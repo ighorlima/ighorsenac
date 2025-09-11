@@ -1,0 +1,38 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+}
+#topoPorcento{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+#topo{
+    width: 980px;
+    height: 100px;
+    margin: auto;
+    background-color: blueviolet;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+#menu{
+    width: 680px;
+    height: 100px;
+    float: right;
+    background-color: blue;
+}
+#banner{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+#container{
+    width: 980px;
+    height: 560px;
+    margin: auto;
+    background-color: blueviolet;
+}
