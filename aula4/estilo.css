@@ -2,37 +2,62 @@
     margin: 0px;
     padding: 0px;
 }
-#topoPorcento{
+#topoProcento{
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 #topo{
     width: 980px;
     height: 100px;
     margin: auto;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
 #logo{
     width: 200px;
     height: 100px;
-    /* background-color: blue; */
     float: left;
+    background-color: rgb(255, 255, 255);  
 }
 #menu{
-    width: 600px;
+    width: 680px;
     height: 100px;
     float: right;
-    /* background-color: blue; */
+    background-color: #ffffff;
+    text-align: right;
+    color: black;
+    word-spacing: 10px;
+}
+#menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#menu_ahouver{
+    color: purple;
 }
 #banner{
     width: 100%;
     height: 400px;
-    /* background-color: black; */
+    background-color: #f8f8f8;
 }
 #container{
     width: 980px;
-    height: 560px;
     margin: auto;
-    background-color: blueviolet; 
+    height: 500px;
+    background-color: #ffffff;
+}
+.espacoTopo{
+    margin-top: 30px;
+}
+.espacoalerta{
+    word-spacing: 0px;
+}
+
+#galeria{
+    width: 980px;
+    height: 650px;
+    background-color: black;
+    margin: auto;
+    clear: both;
+    margin-top: 200px;
 }
