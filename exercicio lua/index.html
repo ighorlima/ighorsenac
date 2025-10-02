@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       Fase da lua: <img src="nova.webp" id="lua" width="200" />
+        <form>
+            <input type="button" value="nova" onclick="nova()" >
+            <input type="button" value="crescente" onclick="crescente()" >
+            <input type="button" value="cheia" onclick="cheia()" >
+            <input type="button" value="minguante" onclick="minguante()" >
+        </form>
+
+       <script>
+        function nova(){
+           var nova = document.getElementById('lua').src='nova.webp';
+        }
+        function crescente(){
+            var crescente = document.getElementById('lua').src='crescente.webp';
+        }
+        function cheia(){
+            var cheia = document.getElementById('lua').src='cheia.webp';
+        }
+        function minguante(){
+            var minguante = document.getElementById('lua').src='minguante.webp';
+        }
+
+       </script>
+</body>
+</html>

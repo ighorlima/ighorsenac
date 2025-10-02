@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       Paisagens: <img src="praia.jpg" id="paisagens" width="200" />
+        <form>
+        <input type="button" value="praia" onclick="praia()" >
+        <input type="button" value="floresta" onclick="floresta()" >
+        <input type="button" value="montanha" onclick="montanha()" >
+        </form>
+
+
+
+       <script>
+        function praia(){
+            var lampada = document.getElementById('paisagens').src='praia.jpg';
+        }
+        function floresta(){
+            var lampada = document.getElementById('paisagens').src='floresta.jpg';
+        }
+                function montanha(){
+            var lampada = document.getElementById('paisagens').src='montanha.jpg';
+        }
+       </script>
+</body>
+</html>

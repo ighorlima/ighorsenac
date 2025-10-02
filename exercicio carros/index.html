@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       Carro: <img src="polo.webp" id="carro" width="200" />
+        <form>
+            <input type="button" value="polo" onclick="polo()" >
+            <input type="button" value="hyundai" onclick="hyundai()" >
+            <input type="button" value="jeep" onclick="jeep()" >
+        </form>
+
+       <script>
+        function polo(){
+            var polo = document.getElementById('carro').src='polo.webp';
+        }
+        function hyundai(){
+            var hyundai = document.getElementById('carro').src='hyundai.webp';
+        }
+        function jeep(){
+            var jeep = document.getElementById('carro').src='jeep.webp';
+        }
+
+       </script>
+</body>
+</html>
