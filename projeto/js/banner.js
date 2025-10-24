@@ -6,7 +6,7 @@
         
         var indice = 0;
 
-        var banner = document.getElementById('animacao')
+        var banner = document.getElementById('banner')
 
         function mostrarImagens(){
             banner.src = imagens[indice];
