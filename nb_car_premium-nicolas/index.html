@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NB CAR Luxury Motors</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo_nbcar.png" alt="NB CAR" class="logo-img" />
+      <div class="tag">Concessionária de veículos de alto padrão</div>
+    </div>
+    <nav class="main-nav">
+      <input id="search" placeholder="Buscar por modelo, marca, ano..." />
+      <button id="favorites-btn">Favoritos (<span id="fav-count">0</span>)</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>🏎️ NB CAR! 🏎️</h1>
+      <h4>Veículos de Alta Performance e Luxo</h4>
+      <p>Seleção premium: sedãs, SUVs, cupês e esportivos das marcas mais exclusivas.</p>
+    </section>
+
+    <section class="controls">
+      <div class="filter-group">
+        <label>Marca
+          <select id="filter-brand"><option value="">Todas</option></select>
+        </label>
+        <label>Tipo
+          <select id="filter-type"><option value="">Todos</option><option value="Sedan">Sedã</option><option value="SUV">SUV</option><option value="Coupe">Cupê</option><option value="Hatch">Hatch</option><option value="Sport">Esportivo</option></select>
+        </label>
+        <label>Ano
+          <select id="filter-year"><option value="">Todos</option></select>
+        </label>
+        <label>Faixa de preço
+          <select id="filter-price"><option value="">Qualquer</option><option value="0-50000">Até R$50.000</option><option value="50000-150000">R$50.000 - R$150.000</option><option value="150000-400000">R$150.000 - R$400.000</option><option value="400000-9999999">Acima de R$400.000</option></select>
+        </label>
+      </div>
+      <div class="sort-group">
+        <label>Ordenar
+          <select id="sort-by"><option value="featured">Destaques</option><option value="price-asc">Preço: Menor → Maior</option><option value="price-desc">Preço: Maior → Menor</option><option value="year-desc">Ano: Mais novo</option><option value="year-asc">Ano: Mais antigo</option></select>
+        </label>
+      </div>
+    </section>
+
+    <section id="inventory" class="grid"></section>
+
+    <section class="tools">
+      <div class="compare-box"><h3>Comparar</h3><div id="compare-list">Nenhum veículo selecionado</div><button id="compare-btn" disabled>Comparar</button></div>
+      <div class="finance-box"><h3>Simulador</h3><label>Preço R$ <input id="fin-price" type="number" value="100000" /></label><label>Entrada R$ <input id="fin-down" type="number" value="20000" /></label><label>Parcelas <input id="fin-term" type="number" value="48" /></label><label>Taxa anual % <input id="fin-rate" type="number" value="8.5" /></label><div>Parcela: <strong id="fin-output">R$ 0,00</strong></div><button id="calc-fin">Simular</button></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer"><div>2025 NB CAR - Desenvolvido por NICOLAS</div><div>Protótipo front-end</div></footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
