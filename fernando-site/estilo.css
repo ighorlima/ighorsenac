@@ -1,0 +1,60 @@
+body {
+    font-family: "Stack Sans Text", sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    
+}
+
+header {
+    background-color: #7a05b0;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #3e6b4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
