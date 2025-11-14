@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    width: 50px;
+    display: flex;
+}
+ 
+nav ul li{
+    margin: 10px;
+    list-style: none;
+   
+}
+
+a:hover{
+    color:inherit;
+    border-bottom: 2px solid transparent;
+    border-color: red;
+}
+ 
+#cabecalhoTopo{
+    background-color: rgb(207,0,0);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
+#cabecalhoTopo img{
+    width: auto;
+    height: 40px;
+    margin: auto;
+}
+ 
+.lista{
+    text-decoration: none;
+}
+ 
+.content{
+    display: flex;
+}
+
+.content section{
+    width: 20%;
+}
+
+.content main{
+    width: 70%;
+}
+
+.content aside{
+    width: 10%;
+}
+
+.content main img{
+    width: 500px;
+    display: flex;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+.content main p{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
